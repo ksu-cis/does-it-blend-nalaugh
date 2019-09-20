@@ -13,9 +13,9 @@ namespace DoesItBlend
         /// Blends the strawberry
         /// </summary>
         /// <returns>The result of blending a strawberry</returns>
-        public string Blend()
+        public override string Blend()
         {
-            return "Gooey Red Sweetness";
+            return "Gooey Red Sweetness ";
         }
     }
 }
